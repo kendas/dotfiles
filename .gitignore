@@ -3,5 +3,4 @@ vim/.vim/bundle/syntastic/*
 vim/.vim/bundle/YouCompleteMe/*
 vim/.vim/bundle/vim-colors-solarized/*
 vim/.vim/bundle/ultrasnips/*
-vim/.vim/bundle/taglist/*
 *.un~
