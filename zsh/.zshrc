@@ -17,7 +17,26 @@ promptinit
 prompt walters
 
 export WORKON_HOME=~/.virtualenvs
-source /usr/bin/virtualenvwrapper.sh
+export PROJECT_HOME=~/projects
+
+# Arch Linux vs Ubuntu/Debian
+if [[ -e /usr/share/virtualenvwrapper/virtualenvwrapper.sh ]]
+then
+	source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+fi
+if [[ -e /usr/bin/virtualenvwrapper.sh ]]
+then
+	source /usr/bin/virtualenvwrapper.sh
+fi
+
+GIT_PROMPT_EXECUTABLE="haskell"
+source /home/kaarel/dotfiles/zsh/zsh-git-prompt/zshrc.sh
+PROMPT='%B%(?..[%?] )%b%n@%U%m%u$(git_super_status)> '
 
 export EDITOR="vim"
 
+randpw(){ < /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c${1:-16};echo;}
+if [[ -e /home/kaarel/.dir_colors/dircolors ]]
+then
+	eval `dircolors /home/kaarel/.dir_colors/dircolors`
+fi

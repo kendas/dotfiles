@@ -2,6 +2,7 @@
 set nocompatible                        " no compatibility with vi
 syntax enable
 set number                              " show line numbers
+set relativenumber						" show relative line numbers
 set showcmd                             " show incomplete commands
 filetype plugin indent on               " load file type plugins + indentation
 
@@ -48,6 +49,5 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-
-
-
+let g:syntastic_javascript_checkers = ['jshint']
+let g:syntastic_python_pylint_args = "--load-plugins pylint_django"

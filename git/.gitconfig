@@ -1,3 +1,7 @@
 [user]
 	email = kaarel.ratas@gmail.com
 	name = Kaarel Ratas
+[push]
+	default = simple
+[core]
+	excludesfile = /home/kaarel/.gitignore_global
