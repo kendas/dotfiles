@@ -30,7 +30,7 @@ then
 fi
 
 GIT_PROMPT_EXECUTABLE="haskell"
-source /home/kaarel/dotfiles/zsh/zsh-git-prompt/zshrc.sh
+source /home/kaarel/dotfiles/zsh-git-prompt/zshrc.sh
 PROMPT='%B%(?..[%?] )%b%n@%U%m%u$(git_super_status)> '
 
 export EDITOR="vim"
