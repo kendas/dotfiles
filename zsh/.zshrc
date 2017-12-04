@@ -40,3 +40,6 @@ if [[ -e /home/kaarel/.dir_colors/dircolors ]]
 then
 	eval `dircolors /home/kaarel/.dir_colors/dircolors`
 fi
+
+# prm
+alias prm=". $HOME/dotfiles/prm/prm.sh"
