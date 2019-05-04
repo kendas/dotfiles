@@ -42,7 +42,9 @@ export PATH="$PATH":"$HOME/.pub-cache/bin"
 # Project management stuff
 ############################################################
 # prm
-alias prm="RPROMPT=$RPS1 . $HOME/dotfiles/prm/prm.sh"
+export RPROMPT=$RPS1
+alias prm=". $HOME/dotfiles/prm/prm.sh"
+#alias prm=". $HOME/dotfiles/prm/prm.sh"
 # git
 GIT_PROMPT_EXECUTABLE="haskell"
 source /home/kaarel/dotfiles/zsh/zsh-git-prompt/zshrc.sh
