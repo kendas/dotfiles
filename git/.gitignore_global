@@ -3,6 +3,7 @@
 .idea
 .*.swp
 ~.lock.*#
+.vscode
 
 # Compiled source #
 ###################
@@ -25,6 +26,9 @@
 *.rar
 *.tar
 *.zip
+*.egg-info
+dist/
+build/
 
 # Logs and databases #
 ######################
@@ -51,3 +55,7 @@ Thumbs.db
 # Haskell stack installation directories #
 ##########################################
 .stack-work/
+
+# Changelog reminder files #
+############################
+UNRELEASED_CHANGELOG.md
