@@ -1,18 +1,20 @@
 [submodule "vim/.vim/bundle/YouCompleteMe"]
 	path = vim/.vim/bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
+	branch = master
 [submodule "vim/.vim/bundle/ultisnips"]
 	path = vim/.vim/bundle/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
+	branch = master
 [submodule "vim/.vim/bundle/syntastic"]
 	path = vim/.vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+	branch = master
 [submodule "zsh/zsh-git-prompt"]
 	path = zsh/zsh-git-prompt
 	url = https://github.com/olivierverdier/zsh-git-prompt.git
-[submodule "zsh-git-prompt"]
-	path = zsh-git-prompt
-	url = https://github.com/olivierverdier/zsh-git-prompt
+	branch = master
 [submodule "prm"]
 	path = prm
 	url = https://github.com/eivind88/prm.git
+	branch = master
