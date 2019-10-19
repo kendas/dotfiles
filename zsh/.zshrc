@@ -21,6 +21,7 @@ prompt walters
 ############################################################
 export WORKON_HOME=~/.virtualenvs
 export PROJECT_HOME=~/projects
+export PATH="$PATH":"$HOME/.local/bin"
 # Virtualenvwrapper
 # Ubuntu/Debian
 if [[ -e /usr/share/virtualenvwrapper/virtualenvwrapper.sh ]]

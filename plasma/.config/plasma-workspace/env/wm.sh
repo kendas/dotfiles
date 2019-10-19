@@ -4,4 +4,4 @@ export SSH_ASKPASS="/usr/bin/ksshaskpass"
 
 # Compositor (Animations, Shadows, Transparency)
 # xcompmgr -C
-compton -cCFb --backend glx --vsync opengl
+compton -cCfb --backend glx
