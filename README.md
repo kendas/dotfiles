@@ -41,6 +41,23 @@ $ git submodule init
 $ git submodule update
 ```
 
+### `plasma` installation instructions
+
+The `plasma` package needs the following dependencies:
+
+* `ksshaskpass`
+* `i3-gaps`
+* `compton` (changed to `picom` on arch)
+
+The installation also needs a few systemd commands
+
+```
+stow plasma
+sudo systemctl daemon-reload
+systemctl enable --user ssh-agent.service
+systemctl start --user ssh-agent.service
+```
+
 ### `zsh` installation instructions
 
 The `zsh` package includes a Haskell-powered git prompt. The source code is included as a _git submodule_ in the dotfiles project root directory.
