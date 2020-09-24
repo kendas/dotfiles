@@ -245,7 +245,7 @@ for_window [class="Plasmoidviewer"] floating enable; border none
 
 # Float by name
 for_window [title="Nitrogen"] floating enable
-for_window [title="Toggl Desktop"] floating enable
+for_window [title="Toggl Track"] floating enable
 for_window [title="Install user style"] floating enable
 for_window [title="KCalc"] floating enable
 
